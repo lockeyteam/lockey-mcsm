@@ -15,9 +15,11 @@ ln -s /opt/node-v12.16.1-linux-x64/bin/npm /usr/bin/npm
 
 
 #install MCSM MCSM_v8.7.0
-    git clone -b v8.7.0 https://github.com/suwings/mcsmanager.gi
-    cd mcsmanager/
+    cd /opt/
+    git clone -b v8.7.0 https://github.com/suwings/mcsmanager.git
+    cd /opt/mcsmanager/
     npm install
 
 #run MCSM MCSM_v8.7.0
+    cd /opt/
     npm start
